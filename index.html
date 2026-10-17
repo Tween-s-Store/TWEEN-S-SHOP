@@ -85,8 +85,14 @@ const cities = [
 ['Kelaat Sraghna',40],['Chichaoua',45],['Aït Melloul',45],['Inezgane',45],['Biougra',45],['Tiflet',35],['Bouznika',30],['Azemmour',35],['Midelt',50],['Tan-Tan',60]
 ];
 const seedProducts = [
-{
-      "id": "TS009",
+{id:'TS001',name:'Veste Minimaliste',description:'Une silhouette nette et contemporaine.',longDesc:'Une veste polyvalente au design épuré, pensée pour compléter vos looks du quotidien. Coupe moderne et finitions soignées.',category:'Homme',price:349,oldPrice:449,tag:'promo',popular:true,stock:18,sizes:[{size:'S',stock:3},{size:'M',stock:7},{size:'L',stock:5},{size:'XL',stock:3},{size:'XXL',stock:0}],colors:[{name:'Noir',code:'#000000'},{name:'Beige',code:'#d2b48c'}],img:'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=80','https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80'],created:1},
+{id:'TS002',name:'Ensemble Urbain',description:'Le confort rencontre le style.',longDesc:'Un ensemble facile à porter, avec une coupe décontractée et un style urbain actuel.',category:'Femme',price:289,oldPrice:359,tag:'promo',popular:true,stock:22,sizes:[{size:'S',stock:4},{size:'M',stock:8},{size:'L',stock:6},{size:'XL',stock:4},{size:'XXL',stock:0}],colors:[{name:'Beige',code:'#d2b48c'},{name:'Noir',code:'#000000'}],img:'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80','https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=80'],created:2},
+{id:'TS003',name:'Chemise Classique',description:'L’essentiel de votre dressing.',longDesc:'Chemise élégante aux lignes simples, parfaite seule ou sous une veste.',category:'Homme',price:199,oldPrice:0,tag:'nouveau',popular:true,stock:15,sizes:[{size:'S',stock:2},{size:'M',stock:5},{size:'L',stock:5},{size:'XL',stock:3},{size:'XXL',stock:0}],colors:[{name:'Blanc',code:'#ffffff'},{name:'Bleu',code:'#3c5f85'}],img:'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80'],created:3},
+{id:'TS004',name:'Robe Élégance',description:'Une allure affirmée en toute simplicité.',longDesc:'Une robe fluide pour vos sorties et occasions spéciales. Associez-la à vos accessoires préférés.',category:'Femme',price:329,oldPrice:0,tag:'nouveau',popular:true,stock:12,sizes:[{size:'S',stock:3},{size:'M',stock:4},{size:'L',stock:3},{size:'XL',stock:2},{size:'XXL',stock:0}],colors:[{name:'Noir',code:'#000000'},{name:'Crème',code:'#f3ead9'}],img:'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=80'],created:4},
+{id:'TS005',name:'Sweat Essential',description:'Doux, simple, indispensable.',longDesc:'Un sweat doux et confortable, à porter toute l’année avec vos pièces favorites.',category:'Enfant',price:149,oldPrice:179,tag:'promo',popular:false,stock:20,sizes:[{size:'S',stock:5},{size:'M',stock:5},{size:'L',stock:5},{size:'XL',stock:5},{size:'XXL',stock:0}],colors:[{name:'Gris',code:'#a4a4a4'},{name:'Noir',code:'#000000'}],img:'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80'],created:5},
+{id:'TS006',name:'Sac Signature',description:'Le détail qui fait la différence.',longDesc:'Un sac au style intemporel qui accompagne facilement vos journées et vos sorties.',category:'Accessoires',price:239,oldPrice:0,tag:'normal',popular:true,stock:9,sizes:[{size:'Unique',stock:9}],colors:[{name:'Camel',code:'#b47a46'},{name:'Noir',code:'#000000'}],img:'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80'],created:6},
+{id:'TS007',name:'T-shirt Premium',description:'Un basique aux finitions soignées.',longDesc:'T-shirt facile à associer, pensé pour une silhouette propre et confortable.',category:'Homme',price:129,oldPrice:0,tag:'normal',popular:false,stock:30,sizes:[{size:'S',stock:8},{size:'M',stock:10},{size:'L',stock:7},{size:'XL',stock:5},{size:'XXL',stock:0}],colors:[{name:'Blanc',code:'#ffffff'},{name:'Noir',code:'#000000'}],img:'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80'],created:7},
+{id:'TS009',
       "name": "lunette bleu",
       "description": "bleu glasses",
       "longDesc": "",
@@ -131,380 +137,35 @@ const seedProducts = [
       ],
       "created": 1792275338538
     },
-    {
-      "id": "TS001",
-      "name": "Veste Minimaliste",
-      "description": "Une silhouette nette et contemporaine.",
-      "longDesc": "Une veste polyvalente au design épuré, pensée pour compléter vos looks du quotidien. Coupe moderne et finitions soignées.",
-      "category": "Homme",
-      "price": 349,
-      "oldPrice": 449,
-      "tag": "promo",
-      "popular": true,
-      "stock": 18,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 3
-        },
-        {
-          "size": "M",
-          "stock": 7
-        },
-        {
-          "size": "L",
-          "stock": 5
-        },
-        {
-          "size": "XL",
-          "stock": 3
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Noir",
-          "code": "#000000"
-        },
-        {
-          "name": "Beige",
-          "code": "#d2b48c"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 1
-    },
-    {
-      "id": "TS002",
-      "name": "Ensemble Urbain",
-      "description": "Le confort rencontre le style.",
-      "longDesc": "Un ensemble facile à porter, avec une coupe décontractée et un style urbain actuel.",
-      "category": "Femme",
-      "price": 289,
-      "oldPrice": 359,
-      "tag": "promo",
-      "popular": true,
-      "stock": 22,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 4
-        },
-        {
-          "size": "M",
-          "stock": 8
-        },
-        {
-          "size": "L",
-          "stock": 6
-        },
-        {
-          "size": "XL",
-          "stock": 4
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Beige",
-          "code": "#d2b48c"
-        },
-        {
-          "name": "Noir",
-          "code": "#000000"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 2
-    },
-    {
-      "id": "TS003",
-      "name": "Chemise Classique",
-      "description": "L’essentiel de votre dressing.",
-      "longDesc": "Chemise élégante aux lignes simples, parfaite seule ou sous une veste.",
-      "category": "Homme",
-      "price": 199,
-      "oldPrice": 0,
-      "tag": "nouveau",
-      "popular": true,
-      "stock": 15,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 2
-        },
-        {
-          "size": "M",
-          "stock": 5
-        },
-        {
-          "size": "L",
-          "stock": 5
-        },
-        {
-          "size": "XL",
-          "stock": 3
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Blanc",
-          "code": "#ffffff"
-        },
-        {
-          "name": "Bleu",
-          "code": "#3c5f85"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 3
-    },
-    {
-      "id": "TS004",
-      "name": "Robe Élégance",
-      "description": "Une allure affirmée en toute simplicité.",
-      "longDesc": "Une robe fluide pour vos sorties et occasions spéciales. Associez-la à vos accessoires préférés.",
-      "category": "Femme",
-      "price": 329,
-      "oldPrice": 0,
-      "tag": "nouveau",
-      "popular": true,
-      "stock": 12,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 3
-        },
-        {
-          "size": "M",
-          "stock": 4
-        },
-        {
-          "size": "L",
-          "stock": 3
-        },
-        {
-          "size": "XL",
-          "stock": 2
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Noir",
-          "code": "#000000"
-        },
-        {
-          "name": "Crème",
-          "code": "#f3ead9"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 4
-    },
-    {
-      "id": "TS005",
-      "name": "Sweat Essential",
-      "description": "Doux, simple, indispensable.",
-      "longDesc": "Un sweat doux et confortable, à porter toute l’année avec vos pièces favorites.",
-      "category": "Enfant",
-      "price": 149,
-      "oldPrice": 179,
-      "tag": "promo",
-      "popular": false,
-      "stock": 20,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 5
-        },
-        {
-          "size": "M",
-          "stock": 5
-        },
-        {
-          "size": "L",
-          "stock": 5
-        },
-        {
-          "size": "XL",
-          "stock": 5
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Gris",
-          "code": "#a4a4a4"
-        },
-        {
-          "name": "Noir",
-          "code": "#000000"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 5
-    },
-    {
-      "id": "TS006",
-      "name": "Sac Signature",
-      "description": "Le détail qui fait la différence.",
-      "longDesc": "Un sac au style intemporel qui accompagne facilement vos journées et vos sorties.",
-      "category": "Accessoires",
-      "price": 239,
-      "oldPrice": 0,
-      "tag": "normal",
-      "popular": true,
-      "stock": 9,
-      "sizes": [
-        {
-          "size": "Unique",
-          "stock": 9
-        }
-      ],
-      "colors": [
-        {
-          "name": "Camel",
-          "code": "#b47a46"
-        },
-        {
-          "name": "Noir",
-          "code": "#000000"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 6
-    },
-    {
-      "id": "TS007",
-      "name": "T-shirt Premium",
-      "description": "Un basique aux finitions soignées.",
-      "longDesc": "T-shirt facile à associer, pensé pour une silhouette propre et confortable.",
-      "category": "Homme",
-      "price": 129,
-      "oldPrice": 0,
-      "tag": "normal",
-      "popular": false,
-      "stock": 30,
-      "sizes": [
-        {
-          "size": "S",
-          "stock": 8
-        },
-        {
-          "size": "M",
-          "stock": 10
-        },
-        {
-          "size": "L",
-          "stock": 7
-        },
-        {
-          "size": "XL",
-          "stock": 5
-        },
-        {
-          "size": "XXL",
-          "stock": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Blanc",
-          "code": "#ffffff"
-        },
-        {
-          "name": "Noir",
-          "code": "#000000"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 7
-    },
-    {
-      "id": "TS008",
-      "name": "Lunettes Soleil",
-      "description": "Une touche finale audacieuse.",
-      "longDesc": "Des lunettes au look moderne pour compléter vos tenues avec caractère.",
-      "category": "Accessoires",
-      "price": 179,
-      "oldPrice": 219,
-      "tag": "promo",
-      "popular": false,
-      "stock": 14,
-      "sizes": [
-        {
-          "size": "Unique",
-          "stock": 14
-        }
-      ],
-      "colors": [
-        {
-          "name": "Noir",
-          "code": "#000000"
-        },
-        {
-          "name": "Marron",
-          "code": "#6b4226"
-        }
-      ],
-      "img": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80"
-      ],
-      "created": 8
-    }
-  ],
-  "cart": [],
-  "wishlist": [],
-  "orders": [],
-  "reviews": {},
-  "settings": {
-    "storeName": "TWEEN'S SHOP",
-    "whatsapp": "0602017794",
-    "instagram": "https://instagram.com/",
-    "facebook": "https://facebook.com/"
-  }
+
+{id:'TS008',name:'Lunettes Soleil',description:'Une touche finale audacieuse.',longDesc:'Des lunettes au look moderne pour compléter vos tenues avec caractère.',category:'Accessoires',price:179,oldPrice:219,tag:'promo',popular:false,stock:14,sizes:[{size:'Unique',stock:14}],colors:[{name:'Noir',code:'#000000'},{name:'Marron',code:'#6b4226'}],img:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80',images:['https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80'],created:8}
 ];
+function read(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}}
+function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch(e){toast('Stockage plein : réduisez le nombre ou la taille des images.');return false}}
+let products=read(STORAGE.products,null);if(!Array.isArray(products)||!products.length){products=seedProducts;write(STORAGE.products,products)}
+let cart=read(STORAGE.cart,[]),wishlist=read(STORAGE.wishlist,[]),orders=read(STORAGE.orders,[]),reviews=read(STORAGE.reviews,{}),settings=read(STORAGE.settings,{storeName:"TWEEN'S SHOP",whatsapp:'0602017794',instagram:'https://instagram.com/',facebook:'https://facebook.com/'});
+let selectedProduct=null,selectedSize='',selectedColor='',galleryIndex=0,mpImagesData=[],adminTab='products',editingId=null,adminColors=[];
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),2600)}
+function saveAll(){write(STORAGE.products,products);write(STORAGE.cart,cart);write(STORAGE.wishlist,wishlist);write(STORAGE.orders,orders);write(STORAGE.reviews,reviews);write(STORAGE.settings,settings)}
+function productById(id){return products.find(p=>p.id===id)}
+function totalStock(p){return (p.sizes||[]).reduce((n,s)=>n+Number(s.stock||0),0)}
+function imgOf(p){return p.img||(p.images&&p.images[0])||''}
+function safe(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function productTag(p){return p.tag==='promo'?'Promo':p.tag==='nouveau'?'Nouveau':''}
+function isWished(id){return wishlist.includes(id)}
+function renderCard(p){return `<article class="product-card"><div class="product-image" data-open-product="${safe(p.id)}"><img src="${safe(imgOf(p))}" alt="${safe(p.name)}" loading="lazy"><span class="tag ${p.tag==='promo'?'promo':''}">${productTag(p)||safe(p.category)}</span><button class="heart ${isWished(p.id)?'active':''}" data-wish="${safe(p.id)}" aria-label="Ajouter aux favoris">${isWished(p.id)?'♥':'♡'}</button><button class="share" data-share="${safe(p.id)}" aria-label="Partager">↗</button></div><div class="card-info"><h3 class="card-title" data-open-product="${safe(p.id)}">${safe(p.name)}</h3><div class="price-row"><span class="price">${money(p.price)}</span>${p.oldPrice>p.price?`<span class="old-price">${money(p.oldPrice)}</span>`:''}</div><div class="stock-note">${totalStock(p)>0?`${totalStock(p)} pièce(s) disponibles`:'Rupture de stock'}</div><div class="card-actions"><button class="btn small" data-open-product="${safe(p.id)}">Voir le produit</button><button class="btn small outline" data-quick-add="${safe(p.id)}">Ajouter</button></div></div></article>`}
+function renderProducts(){const cat=$('#categoryFilter').value,price=$('#priceFilter').value,size=$('#sizeFilter').value,sort=$('#sortFilter').value;let list=[...products].filter(p=>(!cat||p.category===cat)&&(!price||(+p.price>=+price.split('-')[0]&&+p.price<=+price.split('-')[1]))&&(!size||(p.sizes||[]).some(s=>s.size===size&&+s.stock>0)));if(sort==='price-asc')list.sort((a,b)=>a.price-b.price);if(sort==='price-desc')list.sort((a,b)=>b.price-a.price);if(sort==='new')list.sort((a,b)=>(b.created||0)-(a.created||0));$('#productGrid').innerHTML=list.length?list.map(renderCard).join(''):'<div class="empty">Aucun produit ne correspond à vos filtres.</div>';const offers=products.filter(p=>p.tag==='promo');$('#offerGrid').innerHTML=offers.length?offers.map(renderCard).join(''):'<div class="empty">De nouvelles offres arrivent bientôt.</div>';updateCounts()}
+function updateCounts(){$('#wishCount').textContent=wishlist.length;$('#cartCount').textContent=cart.reduce((n,i)=>n+i.qty,0)}
+function toggleWish(id){wishlist=isWished(id)?wishlist.filter(x=>x!==id):[...wishlist,id];write(STORAGE.wishlist,wishlist);renderProducts();if($('#drawer').classList.contains('open')&&$('#drawerTitle').textContent.includes('favoris'))renderWishlist();toast(isWished(id)?'Ajouté aux favoris':'Retiré des favoris')}
+function openDrawer(type='cart'){$('#overlay').classList.add('show');$('#drawer').classList.add('open');document.body.classList.add('lock');if(type==='wishlist')renderWishlist();else renderCart()}
+function closeDrawer(){$('#overlay').classList.remove('show');$('#drawer').classList.remove('open');document.body.classList.remove('lock')}
+function renderCart(){ $('#drawerTitle').textContent='Votre panier';if(!cart.length){$('#drawerBody').innerHTML='<div class="empty">Votre panier est encore vide.</div>';$('#drawerFoot').innerHTML='<a class="btn" style="width:100%" href="#produits" id="continueShopping">Découvrir les produits</a>';return}$('#drawerBody').innerHTML=cart.map((it,i)=>{const p=productById(it.id);if(!p)return '';return `<div class="cart-item"><img src="${safe(it.img||imgOf(p))}" alt=""><div><strong>${safe(p.name)}</strong><small>Taille : ${safe(it.size)} · Couleur : ${safe(it.color)}</small><div>${money(p.price)}</div><div class="qty"><button data-qty="${i}" data-delta="-1">−</button><span>${it.qty}</span><button data-qty="${i}" data-delta="1">+</button></div></div><button class="remove" data-remove-cart="${i}">Retirer</button></div>`}).join('');const sub=cart.reduce((n,it)=>n+(productById(it.id)?.price||0)*it.qty,0);$('#drawerFoot').innerHTML=`<div class="total-line"><span>Sous-total</span><strong>${money(sub)}</strong></div><p style="font-size:10px;color:#777">Livraison calculée à l’étape suivante.</p><button class="btn gold" id="goCheckout" style="width:100%">Commander</button>`}
+function renderWishlist(){$('#drawerTitle').textContent='Mes favoris';const list=wishlist.map(productById).filter(Boolean);$('#drawerBody').innerHTML=list.length?list.map(p=>`<div class="cart-item"><img src="${safe(imgOf(p))}" alt=""><div><strong>${safe(p.name)}</strong><small>${safe(p.category)}</small><b>${money(p.price)}</b><button class="btn small" style="margin-top:8px" data-open-product="${safe(p.id)}">Voir</button></div><button class="remove" data-wish="${safe(p.id)}">Retirer</button></div>`).join(''):'<div class="empty">Aucun favori pour le moment.</div>';$('#drawerFoot').innerHTML='<button class="btn" style="width:100%" id="continueWishlist">Continuer mes achats</button>'}
+function addCart(id,size,color,qty=1){const p=productById(id);if(!p)return;const stock=(p.sizes||[]).find(s=>s.size===size)?.stock||0;if(stock<qty){toast('Stock insuffisant pour cette taille.');return}const key=`${id}|${size}|${color}`;const old=cart.find(it=>it.key===key);if(old){if(old.qty+qty>stock){toast('Stock insuffisant.');return}old.qty+=qty}else cart.push({key,id,size,color,qty,img:imgOf(p)});write(STORAGE.cart,cart);updateCounts();renderCart();toast('Produit ajouté au panier')}
+function openProduct(id){const p=productById(id);if(!p)return;selectedProduct=p;selectedSize=(p.sizes||[]).find(s=>s.stock>0)?.size||((p.sizes||[])[0]?.size||'');selectedColor=(p.colors||[])[0]?.name||'';galleryIndex=0;renderProductDetail();$('#productModal').classList.add('open');document.body.classList.add('lock')}
+function renderProductDetail(){const p=selectedProduct;if(!p)return;const imgs=[...(p.images||[])];if(p.img&&!imgs.includes(p.img))imgs.unshift(p.img);if(!imgs.length)imgs.push('');const sizes=p.sizes||[];const chosen=sizes.find(s=>s.size===selectedSize);const stock=chosen?+chosen.stock:0;const rv=reviews[p.id]||[];const avg=rv.length?rv.reduce((n,r)=>n+ +r.stars,0)/rv.length:0;const rel=products.filter(x=>x.id!==p.id&&x.category===p.category).slice(0,4);$('#productModalContent').innerHTML=`<div class="detail-layout"><div><img class="gallery-main" id="galleryMain" src="${safe(imgs[galleryIndex]||imgOf(p))}" alt="${safe(p.name)}"><div class="thumbs">${imgs.slice(0,5).map((im,i)=>`<img class="thumb ${i===galleryIndex?'selected':''}" data-thumb="${i}" src="${safe(im)}" alt="Vue ${i+1}">`).join('')}</div></div><div class="detail-copy"><div class="eyebrow">${safe(p.category)} · ${productTag(p)||'Collection'}</div><h2>${safe(p.name)}</h2><div class="price-row"><span class="price">${money(p.price)}</span>${p.oldPrice>p.price?`<span class="old-price">${money(p.oldPrice)}</span>`:''}</div><p>${safe(p.longDesc||p.description||'')}</p><span class="label">Taille</span><div class="sizes">${sizes.map(s=>`<button class="size-btn ${s.size===selectedSize?'selected':''}" data-size="${safe(s.size)}" ${+s.stock<=0?'disabled':''}>${safe(s.size)}${+s.stock<=0?'<br><small>Rupture</small>':''}</button>`).join('')}</div><span class="label">Couleur : ${safe(selectedColor)}</span><div class="colors">${(p.colors||[]).map(c=>`<button class="color-btn ${c.name===selectedColor?'selected':''}" style="background:${safe(c.code)}" title="${safe(c.name)}" aria-label="${safe(c.name)}" data-color="${safe(c.name)}"></button>`).join('')}</div><div class="stock-live">${stock>0?`✓ En stock — ${stock} disponible(s) pour la taille ${safe(selectedSize)}`:'Rupture de stock pour cette taille'}</div><div class="detail-buttons"><button class="btn gold" id="detailAdd" ${stock<=0?'disabled':''}>Ajouter au panier</button><button class="btn outline" data-wish="${safe(p.id)}">${isWished(p.id)?'♥ Favori':'♡ Favoris'}</button></div><a class="btn outline" style="margin-top:10px;width:100%" target="_blank" rel="noopener" href="${'https://wa.me/'+WA+'?text='+encodeURIComponent('Bonjour, je souhaite commander : '+p.name+' ('+selectedSize+', '+selectedColor+').')}">Commander sur WhatsApp</a></div></div><section class="review-area"><h3>Avis clients <span class="stars">${'★'.repeat(Math.round(avg))}${'☆'.repeat(5-Math.round(avg))}</span> <small style="font-size:11px;color:#777">${rv.length?avg.toFixed(1)+'/5 · '+rv.length+' avis':'Pas encore d’avis'}</small></h3><form class="review-form" id="reviewForm"><input name="name" placeholder="Votre nom" required maxlength="60"><select name="stars" required><option value="5">★★★★★ — Excellent</option><option value="4">★★★★☆ — Très bien</option><option value="3">★★★☆☆ — Bien</option><option value="2">★★☆☆☆ — Moyen</option><option value="1">★☆☆☆☆ — Décevant</option></select><textarea name="comment" placeholder="Partagez votre expérience..." required maxlength="1000"></textarea><button class="btn small" type="submit">Publier mon avis</button></form><div class="review-list">${rv.length?rv.slice().reverse().map(r=>`<div class="review"><strong>${safe(r.name)}</strong> <span class="stars">${'★'.repeat(+r.stars)}${'☆'.repeat(5- +r.stars)}</span><p>${safe(r.comment)}</p><small>${safe(r.date||'')}</small></div>`).join(''):'<p class="section-sub">Soyez le premier à donner votre avis.</p>'}</div></section><section class="related"><h3>Vous aimerez aussi</h3><div class="grid">${rel.length?rel.map(renderCard).join(''):'<p class="section-sub">D’autres articles arrivent bientôt.</p>'}</div></section>`;
+}
+
 
 function read(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}}
 function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch(e){toast('Stockage plein : réduisez le nombre ou la taille des images.');return false}}
